@@ -1,0 +1,44 @@
+/* E-Commerce Dashboard - Custom Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0F1117;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #1A1D27;
+}
+::-webkit-scrollbar-thumb {
+    background: #6C63FF;
+    border-radius: 3px;
+}
+
+/* Dash table filter inputs */
+.dash-filter input {
+    background-color: #252836 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #3A3D4E !important;
+    border-radius: 4px !important;
+    padding: 4px 8px !important;
+    font-size: 11px !important;
+}
+
+/* Dash table pagination */
+.previous-next-container {
+    color: #8A8FA8 !important;
+}
+.page-number {
+    color: #6C63FF !important;
+}
